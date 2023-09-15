@@ -1,7 +1,7 @@
 {
-  "name": "yt-music-x64",
-  "version": "1.0.0",
-  "description": "A desktop version of the YouTube Music application.",
+  "name": "ytmusic",
+  "version": "1.0.1",
+  "description": "Listen to your favorite music on your desktop, without using your web browser.",
   "main": "./src/main.js",
   "icon": "favicon.ico",
   "build": {
@@ -17,7 +17,11 @@
     "make": "electron-forge make"
   },
   "keywords": [],
-  "author": "Raycast",
+  "author": {
+    "email": "raycast6000@gmail.com",
+    "name": "Raycast",
+    "url": "https://github.com/raycast6000"
+  },
   "license": "ISC",
   "devDependencies": {
     "@electron-forge/cli": "^6.4.2",
