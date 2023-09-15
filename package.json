@@ -1,6 +1,6 @@
 {
   "name": "ytmusic",
-  "version": "1.0.1",
+  "version": "1.0.1b",
   "description": "Listen to your favorite music on your desktop, without using your web browser.",
   "main": "./src/main.js",
   "icon": "favicon.ico",
