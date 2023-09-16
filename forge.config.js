@@ -3,14 +3,17 @@ const path = require("path")
 module.exports = {
   packagerConfig: {
     asar: true,
-    icon: "./assets/logo1",
+    icon: "assets/logo1",
     extraResource: ["./assets"]
   },
   rebuildConfig: {},
   makers: [
     {
       name: '@electron-forge/maker-squirrel',
-      config: {},
+      config: {
+        iconUrl: "https://music.youtube.com/favicon.ico",
+        setupIcon: "assets/logo1.ico"
+      },
     },
     {
       name: '@electron-forge/maker-zip',
