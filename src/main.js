@@ -5,7 +5,7 @@ const createWindow = () => {
         width: 1000,
         height: 680,
         title: "YouTube Music",
-        icon: "./assets/app_icon.ico",
+        icon: "./assets/logo1.ico",
         roundedCorners: true
     })
 

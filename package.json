@@ -1,17 +1,10 @@
 {
   "name": "ytmusic",
-  "version": "1.0.1b",
+  "version": "1.0.2",
   "description": "Listen to your favorite music on your desktop, without using your web browser.",
   "main": "./src/main.js",
-  "icon": "favicon.ico",
-  "build": {
-    "win": {
-      "icon": "./favicon.ico"
-    }
-  },
   "scripts": {
     "start": "electron-forge start",
-    "build": "electron-forge make",
     "test": "echo \"Error: no test specified\" && exit 1",
     "package": "electron-forge package",
     "make": "electron-forge make"

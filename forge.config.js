@@ -3,6 +3,8 @@ const path = require("path")
 module.exports = {
   packagerConfig: {
     asar: true,
+    icon: "./assets/logo1",
+    extraResource: ["./assets"]
   },
   rebuildConfig: {},
   makers: [
