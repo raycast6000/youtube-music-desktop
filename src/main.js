@@ -6,7 +6,7 @@ const createWindow = () => {
         width: 1000,
         height: 680,
         title: "YouTube Music",
-        icon: path.join(process.resourcesPath, "assets/logo1.ico"),
+        icon: path.join(process.resourcesPath, "assets/app_icon.ico"),
         roundedCorners: true
     })
 

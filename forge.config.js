@@ -3,7 +3,7 @@ const path = require("path")
 module.exports = {
   packagerConfig: {
     asar: true,
-    icon: "assets/logo1",
+    icon: "assets/app_icon",
     extraResource: ["./assets"]
   },
   rebuildConfig: {},
@@ -11,8 +11,10 @@ module.exports = {
     {
       name: '@electron-forge/maker-squirrel',
       config: {
+        msi: true,
         iconUrl: "https://music.youtube.com/favicon.ico",
-        setupIcon: "assets/logo1.ico"
+        setupIcon: "assets/app_icon.ico",
+        artifactName: "YTMusic"
       },
     },
     {
