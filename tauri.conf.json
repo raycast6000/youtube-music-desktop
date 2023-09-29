@@ -29,7 +29,7 @@
         "icons/ytm_icon.ico"
       ],
       "identifier": "Raycast",
-      "longDescription": "",
+      "longDescription": "An unofficial desktop adaptation for the YouTube Music web application.",
       "macOS": {
         "entitlements": null,
         "exceptionDomain": "",
