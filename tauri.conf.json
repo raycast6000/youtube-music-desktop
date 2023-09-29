@@ -6,7 +6,7 @@
     "distDir": "public"
   },
   "package": {
-    "productName": "YouTube Music",
+    "productName": "YTMusic",
     "version": "1.0.2"
   },
   "tauri": {
